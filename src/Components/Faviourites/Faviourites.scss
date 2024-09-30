@@ -1,0 +1,22 @@
+.Faviourites {
+    flex: 4;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    padding: 20px 100px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .catNewsHeading {
+        margin-top: 100px;
+        padding: 10px;
+        border-left: 10px solid green;
+    }
+
+
+    
+
+
+}

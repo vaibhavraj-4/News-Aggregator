@@ -1,0 +1,108 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: rgba(130, 130, 130, 0.4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(
+        rgba(4, 4, 4, 0.4),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../images/signup.jpg") center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    .card {
+        margin: 100px 0px 50px 0px;
+        width: 50%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 200px;
+        overflow: hidden;
+        flex-direction: row-reverse;
+
+
+        .left {
+            flex: 1;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.3)), url("../../images/signup.jpg") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1 {
+                font-size: 80px;
+                line-height: 100px;
+            }
+
+            p {}
+
+            span {
+                font-size: 18px;
+            }
+
+            button {
+                cursor: pointer;
+                width: 50%;
+                padding: 9px;
+                border: none;
+                color: purple;
+                background-color: #fff;
+                font-size: 15px;
+                border-radius: 5px;
+
+                &:disabled{
+                    background-color: gray;
+                    cursor: not-allowed;
+                }
+
+            }
+
+        }
+
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                input {
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                    border-radius: 10px;
+                    box-shadow: #555,black;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #938eef;
+                    color: rgb(255, 249, 249);
+                    cursor: pointer;
+                    border-radius: 5px;
+
+                }
+
+            }
+        }
+    }
+}

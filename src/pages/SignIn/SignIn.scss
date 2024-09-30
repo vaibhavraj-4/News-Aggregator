@@ -1,0 +1,101 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: linear-gradient(
+    rgba(4, 4, 4, 0.4),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url("../../images/loginImage.jpg") center;
+
+    .card {
+        margin: 100px 0px 50px 0px;
+        width: 45%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 410px;
+        overflow: hidden;
+
+
+        .left {
+            flex: 1;
+            // background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.3)), url(https://images.pexels.com/photos/5046443/pexels-photo-5046443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.3)), url("../../images/login.jpg") center;
+            background-position: right;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1 {
+                font-size: 80px;
+                line-height: 100px;
+            }
+
+            p {}
+
+            span {
+                font-size: 18px;
+            }
+
+            button {
+                cursor: pointer;
+                width: 50%;
+                padding: 9px;
+                border: none;
+                color: purple;
+                background-color: #fff;
+                font-size: 15px;
+                border-radius: 5px;
+
+            }
+
+        }
+
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input {
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                    border-radius: 10px;
+                    box-shadow: #555,black;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #938eef;
+                    color: rgb(255, 249, 249);
+                    cursor: pointer;
+                    border-radius: 5px;
+
+                }
+
+            }
+        }
+    }
+}
